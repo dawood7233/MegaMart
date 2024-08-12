@@ -271,6 +271,41 @@ ul{
   height: 1px;
   border: none;
 }
+.row-2{
+  justify-content: space-between;
+  margin: 40px auto 40px 14px;
+  font-size: 24px;
+  
+}
+select{
+  border: 1px solid #443e2f;
+  padding: 5px;
+  background-color: rgba(237, 122, 7, 0.8);
+  border-radius: 15px;
+  margin-right: 10px;
+}
+select:focus{
+  outline: none;
+}
+.page-btn{
+  margin: 0 auto 30px ;
+  font-weight: 700;
+}
+.page-btn span{
+  display: inline-block;
+  border: 2px solid #443e2f;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 40px;
+  transition: 0.5s;
+}
+.page-btn span:hover{
+  background-color: #ed7a07;
+  transform: translateY(8px)
+}
 
 @media only screen and (max-width:800px){
   nav ul{
@@ -307,4 +342,7 @@ ul{
   .col-2, .col-3, .col-4{
     flex-basis: 100%;
   }
+}
+.logo:hover{
+  cursor: pointer;
 }
