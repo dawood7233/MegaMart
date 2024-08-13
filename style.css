@@ -36,6 +36,9 @@ nav ul li a:hover {
   font-size: 25px;
   transition: 0.3s;
 }
+.logo:hover{
+  cursor: pointer;
+}
 .menu-icon{
   width: 28px;
   margin-left: 20px 0;
@@ -306,6 +309,50 @@ select:focus{
   background-color: #ed7a07;
   transform: translateY(8px)
 }
+.single-product{
+  margin-top: 50px;
+}
+.single-product .col-2 img{
+  padding: 0;
+}
+.single-product .col-2{
+  padding: 10px;
+}
+.single-product h4{
+  margin: 20px 0;
+  font-size: 18px; 
+}
+.single-product select{
+  display: block;
+}
+.single-product input{
+  width: 50px;
+  height: 30px;
+  margin-top: 15px;
+  margin-left: 14px;
+  padding-left: 17px;
+  font-size: 16px;
+  margin-right: 10px;
+  border: 1px solid #443e2f;
+}
+.small-img-col{
+    flex-basis: 80%;
+}
+.small-img-col:hover{
+  cursor: pointer;
+
+}
+.small-img-col-dir{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+
+}
+.small-img-row{
+  display: flex;
+  justify-content: space-between;
+}
+
 
 @media only screen and (max-width:800px){
   nav ul{
@@ -342,7 +389,12 @@ select:focus{
   .col-2, .col-3, .col-4{
     flex-basis: 100%;
   }
+  .single-product{
+    text-align: left;
+  }
+  .single-product .col-2{
+    padding: 30px 0;
+  }
 }
-.logo:hover{
-  cursor: pointer;
-}
+
+
