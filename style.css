@@ -352,6 +352,10 @@ select:focus{
   display: flex;
   justify-content: space-between;
 }
+.small-container .dress-detail{
+  margin-bottom: 40%;
+  padding-left: 50px;
+}
 .cart-page{
   margin: 80px auto;
 }
@@ -443,6 +447,15 @@ form input{
   border: 1px solid #ed7a07;
 
 }
+.input-box input{
+  width: 100%;
+  height: 70px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 2px solid #443e2f;
+  border-radius: 30px;
+
+}
 form .btn{
   width: 100%;
   border: none;
@@ -470,9 +483,30 @@ form a{
   margin-top: 8px;
   transform: translate(100px);
 }
+.input-box .btn{
+    width: 50%;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+.contact-page h2{
+  text-align: center;
+  font-size: 40px;
+}
+.contact-page .data{
+  margin-bottom: 200px;
+}
+.contact-page p{
+  padding: 5px 0 40px 0;
+}
+.contact-page .row{
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.col-2 .input-box{
 
-
-
+}
 
 
 
